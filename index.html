@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Max, Gi e Gabi">
+    <title>Portfólio - Max Henrique</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8309987a03.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="box">
+
+            <div id="logo">
+                <svg viewBox="0 0 579 579" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="318.523" y="289.031" width="183.52" height="183.52"
+                        transform="rotate(-45 318.523 289.031)" />
+                    <rect x="159.263" y="448.293" width="183.52" height="183.52"
+                        transform="rotate(-45 159.263 448.293)" />
+                    <rect x="159.263" y="129.768" width="183.52" height="183.52"
+                        transform="rotate(-45 159.263 129.768)" />
+                    <rect y="289.031" width="183.52" height="183.52" transform="rotate(-45 0 289.031)" />
+                </svg>
+                <a href="index.html" title="Portfólio de Max Henrique">Portfólio</a>
+            </div>
+
+            <div class="btn-rs">
+                <ul id="redes-sociais">
+                    <a id="btn-github" class="link" href="https://github.com/MaxHenriique" target="_blank"><svg
+                            class="icons" viewBox="0 0 410 401" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M137.335 322.263C137.335 323.914 135.437 325.234 133.044 325.234C130.32 325.482 128.422 324.161 128.422 322.263C128.422 320.613 130.32 319.292 132.714 319.292C135.19 319.045 137.335 320.365 137.335 322.263ZM111.669 318.55C111.091 320.2 112.742 322.098 115.218 322.593C117.364 323.419 119.839 322.593 120.335 320.943C120.83 319.292 119.262 317.394 116.786 316.651C114.64 316.074 112.247 316.899 111.669 318.55ZM148.146 317.147C145.753 317.724 144.102 319.292 144.35 321.19C144.598 322.841 146.743 323.914 149.219 323.336C151.613 322.758 153.263 321.19 153.015 319.54C152.768 317.972 150.54 316.899 148.146 317.147ZM202.45 0.900635C87.9837 0.900635 0.421875 87.8022 0.421875 202.268C0.421875 293.791 58.0262 372.11 140.306 399.674C150.87 401.572 154.584 395.053 154.584 389.688C154.584 384.572 154.336 356.347 154.336 339.016C154.336 339.016 96.5666 351.396 84.435 314.423C84.435 314.423 75.0269 290.408 61.4923 284.218C61.4923 284.218 42.5935 271.261 62.8128 271.509C62.8128 271.509 83.3622 273.159 94.6684 292.801C112.742 324.657 143.03 315.496 154.831 310.049C156.729 296.845 162.094 287.684 168.036 282.237C121.903 277.121 75.357 270.436 75.357 191.044C75.357 168.349 81.6291 156.96 94.8335 142.436C92.6878 137.071 85.6729 114.954 96.9792 86.3993C114.227 81.035 153.923 108.682 153.923 108.682C170.429 104.06 188.172 101.667 205.751 101.667C223.329 101.667 241.072 104.06 257.578 108.682C257.578 108.682 297.274 80.9524 314.522 86.3993C325.828 115.036 318.814 137.071 316.668 142.436C329.872 157.043 337.96 168.432 337.96 191.044C337.96 270.684 289.351 277.038 243.218 282.237C250.811 288.757 257.248 301.136 257.248 320.53C257.248 348.342 257 382.756 257 389.523C257 394.888 260.797 401.407 271.278 399.509C353.805 372.11 409.759 293.791 409.759 202.268C409.759 87.8022 316.915 0.900635 202.45 0.900635ZM80.6387 285.538C79.5659 286.364 79.8135 288.262 81.2164 289.83C82.5369 291.15 84.435 291.728 85.5079 290.655C86.5807 289.83 86.3332 287.932 84.9302 286.364C83.6097 285.043 81.7116 284.466 80.6387 285.538ZM71.7258 278.854C71.1481 279.927 71.9733 281.247 73.6239 282.072C74.9443 282.898 76.5949 282.65 77.1726 281.495C77.7503 280.422 76.925 279.101 75.2744 278.276C73.6239 277.781 72.3035 278.028 71.7258 278.854ZM98.4647 308.234C97.1443 309.306 97.6394 311.782 99.5376 313.35C101.436 315.248 103.829 315.496 104.902 314.176C105.975 313.103 105.48 310.627 103.829 309.059C102.013 307.161 99.5376 306.913 98.4647 308.234ZM89.0566 296.102C87.7361 296.927 87.7361 299.073 89.0566 300.971C90.377 302.869 92.6053 303.695 93.6781 302.869C94.9986 301.796 94.9986 299.651 93.6781 297.753C92.5227 295.854 90.377 295.029 89.0566 296.102Z" />
+                        </svg>GitHub</a>
+                    <a id="btn-dribbble" class="link" href="https://dribbble.com/maxhenrique" target="_blank"><img
+                            class="icons" src="img/dribbble.png" alt="">Dribbble</a>
+                    <a id="btn-behance" class="link" href="https://www.behance.net/MaxHenriqueFS" target="_blank"><img
+                            class="icons" src="img/behance.svg" alt="">Behance</a>
+                </ul>
+
+                <div id="mode">
+                    <p>Modo Dark</p>
+                    <div class="btn">
+                        <i id="light" class="fa fa-sun"></i>
+                        <i id="dark" class="fa fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="erro.html">Aprendendo</a></li>
+            <li><a href="erro.html">Agora!</a></li>
+            <li><a href="erro.html">Metas</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <div class="principal">
+            <div class="pessoa">
+                <div class="balao">
+                    <img src="img/balaotop.png" alt="">
+                    <h3>Olá, eu sou</h3>
+                </div>
+                <div>
+                    <h1>Max Henrique Fontes Sinche</h1>
+                    <h2>Desenvolvedor Front end junior</h2>
+                    <p>Tenho 20 anos e sou formado em Design Gráfico, e atualmente busco desenvolver meus conhecimentos
+                        na área de UI Design. Porém, tenho planos futuros de me desenvolver melhor no front-end,
+                        principalmente utilizando ReactJS, área que tenho mais interesse.</p>
+                    <button><a id="curriculo" href="pdf/Max Henrique - Curriculo PRO.pdf" target="_blank"
+                            type="application/pdf"> Currículo <i class="fa-solid fa-angles-down"></i></a></button>
+                    <button><a id="linkgithub" href="https://github.com/MaxHenriique"
+                            target="_blank">GitHub</a></button>
+                </div>
+            </div>
+            <div class="perfil">
+                <img class="foto" src="img/fotomax.jpg" alt="">
+                <img class="elemento" src="img/elementos.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="profissao-bar">
+            <div>
+                <ul>
+                    <li class="design active" id="default">UX/UI</li>
+                    <li class="front">Front end</li>
+                    <li class="back">Back end</li>
+                    <li class="full">Full Stack</li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="barra"></div>
+                <div class="select active1"></div>
+            </div>
+        </div>
+
+
+        <div id="ux-design" class="profissao active">
+            <div class="profissao-area">
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="https://www.figma.com/proto/PDkZGa3mOGJ2rGDwlvbYcZ/Figma-mobile-Design?node-id=66%3A870&scaling=scale-down&page-id=44%3A50&starting-point-node-id=77%3A300"
+                            target="_blank"><img class="img" src="img/cafemobile-projetos.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h3>Bonjour - App</h3>
+                        <p>Prototipo do app Bonjour uma loja de cafés, projeto realizado para aprimorar meus
+                            conhecimentos em Figma.</p>
+                        <button class="saiba-mais"><a
+                                href="https://www.figma.com/proto/PDkZGa3mOGJ2rGDwlvbYcZ/Figma-mobile-Design?node-id=66%3A870&scaling=scale-down&page-id=44%3A50&starting-point-node-id=77%3A300"
+                                target="_blank">Saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="info">
+                        <h3>Fruit info - Website</h3>
+                        <p>Prototipo Fruit indo um site para ver as informações nutricionais de cada fruta.</p>
+                        <button class="saiba-mais"><a
+                                href="https://www.figma.com/proto/0auatVHQvN1RCfeFvklrF4/Max-Projetos?node-id=1%3A3&starting-point-node-id=1%3A3"
+                                target="_blank">Saiba mais</a></button>
+                    </div>
+                    <div class="container-img">
+                        <a href="https://www.figma.com/proto/0auatVHQvN1RCfeFvklrF4/Max-Projetos?node-id=1%3A3&starting-point-node-id=1%3A3"
+                            target="_blank"><img class="img" src="img/frutas-projetos.png" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="https://www.figma.com/proto/vnPbUlnpmiGwKtwMTO9JL9/Ron-Bugado?node-id=13%3A541&scaling=scale-down&page-id=0%3A1&starting-point-node-id=13%3A541"
+                            target="_blank"><img class="img" src="img/ron-projetos.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h3>Ron bugado(animação)</h3>
+                        <p>Projeto realizado a partir do filme Ron Bugado, após assitir em um final de semana resolvi
+                            criar uma animação do no Figma.</p>
+                        <button class="saiba-mais"><a
+                                href="https://www.figma.com/proto/vnPbUlnpmiGwKtwMTO9JL9/Ron-Bugado?node-id=13%3A541&scaling=scale-down&page-id=0%3A1&starting-point-node-id=13%3A541"
+                                target="_blank">Saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="front-end" class="profissao">
+            <div class="profissao-area">
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="https://myara.netlify.app/" target="_blank"><img class="img"
+                                src="img/myara-projetos.png"></a>
+                    </div>
+                    <div class="info">
+                        <h3>Myara - healthcare</h3>
+                        <p>Nosso objetivo é alavancar a produtividade da sua empresa por meio do cuidado emocional dos
+                            funcionários, tornando o ambiente confortável e sintonizado para todos.</p>
+                        <button class="saiba-mais"><a href="https://myara.netlify.app/" target="_blank">Saiba
+                                mais</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="info">
+                        <h3>Max Henrique - Portfólio</h3>
+                        <p>Portfólio para demostrar alguns de meus trabalhos, onde também contém plano de carreira e
+                            cursos que já ou quero fazer. </p>
+                        <button class="saiba-mais"><a href="https://maxhenrique-portfolio.netlify.app/"
+                                target="_blank">Saiba mais</a></button>
+                    </div>
+                    <div class="container-img">
+                        <a href="https://maxhenrique-portfolio.netlify.app/" target="_blank"><img class="img"
+                                src="img/portfolio-projetos.png" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="https://www.figma.com/proto/Lbv3YX7xgm3CVSoDGBFrPo/Web-Design-de-cinema?node-id=81%3A2348&scaling=contain&page-id=81%3A2347&starting-point-node-id=81%3A2348"
+                            target="_blank"><img class="img" src="img/cinemax-projetos.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h3>CINEMAX - Website</h3>
+                        <p>Prototipagem de uma plataforma de streaming onde contém apenas a tela de login e a de escolha
+                            do filme ou série.</p>
+                        <button class="saiba-mais"><a
+                                href="https://www.figma.com/proto/Lbv3YX7xgm3CVSoDGBFrPo/Web-Design-de-cinema?node-id=81%3A2348&scaling=contain&page-id=81%3A2347&starting-point-node-id=81%3A2348"
+                                target="_blank">Saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="back-end" class="profissao">
+            <div class="profissao-area">
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="#"><img class="img" src="img/template-projetos.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h3>Exercícios de Lógica</h3>
+                        <p>Mais de 312 exercícios de Lógica de Programação, dividos em 3 partes, Visual G para entender
+                            o conceito, JavaScript para aprendendo a sintaxe e Java.</p>
+                        <button class="saiba-mais"><a href="#">Saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="info">
+                        <h3>Oracle Analytics - Bootcamp</h3>
+                        <p>A dinâmica foi realizada com o uso do software de análise de dados Oracle Analytics. Tive uma
+                            experiência incrível e o aprendizado foi enorme. Minha equipe recebeu uma premiação por ser
+                            uma das equipes destaque.</p>
+                        <button class="saiba-mais"><a href="#">Saiba mais</a></button>
+                    </div>
+                    <div class="container-img">
+                        <a href="#"><img class="img" src="img/bootcamp-projetos.jpg" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="#"><img class="img" src="img/br-hospital-projetos.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h3>Hospital - BrModelo</h3>
+                        <p>Modelagem de um Hospital realizado no software BrModelo, esse desafio foi passado pelo
+                            Instituto PROA.</p>
+                        <button class="saiba-mais"><a href="#">Saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="full-stack" class="profissao">
+            <div class="profissao-area">
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="#"><img class="img" src="img/embreve.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h3>Em breve</h3>
+                        <p id="none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ducimus dolores
+                            odit,
+                            reprehenderit assumenda sint itaque ipsum illum mollitia impedit veniam eos eveniet
+                            quaerat
+                            tempore quasi aspernatur deserunt? Cum, quaerat.</p>
+                        <button id="none" class="saiba-mais"><a href="#">Saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="info">
+                        <h3>Em breve</h3>
+                        <p id="none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ducimus dolores
+                            odit,
+                            reprehenderit assumenda sint itaque ipsum illum mollitia impedit veniam eos eveniet
+                            quaerat
+                            tempore quasi aspernatur deserunt? Cum, quaerat.</p>
+                        <button id="none" class="saiba-mais"><a href="#">Saiba mais</a></button>
+                    </div>
+                    <div class="container-img">
+                        <a href="#"><img class="img" src="img/embreve.png" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="conteudo">
+                    <div class="container-img">
+                        <a href="#"><img class="img" src="img/embreve.png" alt=""></a>
+                    </div>
+                    <div class="info">
+                        <h3>Em breve</h3>
+                        <p id="none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ducimus dolores
+                            odit,
+                            reprehenderit assumenda sint itaque ipsum illum mollitia impedit veniam eos eveniet
+                            quaerat
+                            tempore quasi aspernatur deserunt? Cum, quaerat.</p>
+                        <button id="none" class="saiba-mais"><a href="#">Saiba mais</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ver-tudo">
+            <button><a href="#">Ver tudo</a></button>
+        </div>
+    </section>
+
+
+    <section class="hard-skills">
+        <div class="skills">
+            <h3>Hard Skill</h3>
+            <p>Aqui você encontra algumas ferramentas e linguagens que tenho conhecimento, além de outras que pretendo
+                aprender</p>
+            <div class="box">
+                <div class="box-skill">
+                    <img src="img/iconsdark/html dark.png" alt="Icone da linguagem de marcação HTML, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/css dark.png" alt="Icone da linguagem de estilização CSS, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/javascript dark.png" alt="Icone da linguagem JavaScript, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/react dark.png" alt="Icone da biblioteca ReactJS, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/bootstrap dark.png" alt="Icone do framework Bootstrap, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img id="java" src="img/iconsdark/java dark.png" alt="Icone da linguagem Java, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/git dark.png"
+                        alt="Icone do programa Git utilizado no versionamento de códigos, na cor preta">
+                </div>
+                <div id="sql-br" class="box-skill">
+                    <p>Em breve</p>
+                    <img id="sql" src="img/iconsdark/sql dark.png"
+                        alt="Icone da linguagem SQL utilizada para criar banco de dados, na cor preta">
+                </div>
+            </div>
+
+            <div class="box">
+                <div id="br" class="box-skill">
+                    <p>Design</p>
+                    <img id="design-img" src="img/iconsdark/pen dark.png"
+                        alt="Icone de uma caneta tinteiro, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/photoshop dark.png" alt="Icone do software Photoshop, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/illustrator dark.png" alt="Icone do software Illustrator, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/after effects dark.png" alt="Icone do software After Effects, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/premiere dark.png" alt="Icone do software Premiere, na cor preta">
+                </div>
+                <div class="box-skill">
+                    <img src="img/iconsdark/figma dark.png" alt="Icone do Programa Figma, na cor preta">
+                </div>
+                <div id="br" class="box-skill">
+                    <p>Em breve</p>
+                    <img src="img/iconsdark/adobe xd dark.png" alt="Icone do software Adobe XD, na cor preta">
+                </div>
+                <div id="br" class="box-skill">
+                    <p>Em breve</p>
+                    <img src="img/iconsdark/sketch dark.png" alt="Icone do programa Sketch, na cor preta">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="soft-skills">
+
+        <div class="skills">
+            <h3>Soft Skills</h3>
+            <p id="text-soft">Ter um bom relacionamento com seus colegas ou equipe de trabalho torna o ambiente mais
+                produtivo</p>
+            <div class="divisao">
+                <div class="boll">
+                    <div class="skill-ponto">
+                        <div class="bolinha">
+                            <p class="text">Capacidade de se colocar no lugar de outra pessoa, com o objetivo de
+                                entender
+                                seus sentimentos e perspectivas.</p>
+                        </div>
+                        <div>
+                            <p>Empatia</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-ponto">
+                        <div class="bolinha">
+                            <p class="text">Uma comunicação efetiva acontece quando o indivíduo passa uma informação e o
+                                receptor(o outro indivíduo) endende com clareza.</p>
+                        </div>
+                        <div>
+                            <p>Comunicação</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-ponto">
+                        <div class="bolinha">
+                            <p class="text">Se atentar aos detalhes é uma vantagem na resolução de problemas, além de
+                                buscar entregar o máximo de qualidade em seus projetos.</p>
+                        </div>
+                        <div>
+                            <p>Detalhista</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="boll">
+
+
+                    <div class="skill-ponto">
+                        <div class="bolinha">
+                            <p class="text trabalho-equipe">É quando um grupo ou uma sociedade resolve criar um esforço
+                                coletivo para resolver um problema.</p>
+                        </div>
+                        <div>
+                            <p>Trabalho em equipe</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-ponto">
+                        <div class="bolinha">
+                            <p class="text resiliencia">A resiliência é necessária, principalmente, em momentos de
+                                crise. Entender como superar as adversidades e, muitas vezes, recomeçar, demonstra
+                                maturidade e força.</p>
+                        </div>
+                        <div>
+                            <p>Resiliência</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-ponto">
+                        <div class="bolinha">
+                            <p class="text criatividade">É o ato de transformar o que já existe por meio de ideias novas
+                                e imaginativas, produzindo algo inédito</p>
+                        </div>
+                        <div>
+                            <p>Criatividade</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sobre">
+        <div class="container-sobre">
+            <div class="conteudo-sobre">
+
+                <div class="titulo">
+                    <h3>Sobre Max!</h3>
+                    <p id="text-soft">Saiba mais sobre Max Henrique, aqui você vai entender quem é ele</p>
+                </div>
+                <div class="perguntas">
+                    <div class="accordion">
+                        <div>
+                            <input type="radio" name="example_accordion" id="section1" class="accordion__input">
+                            <label for="section1" class="accordion__label">Conte um pouco da sua experiência!<span><i
+                                        class="fa-solid fa-angle-down"></i></span></label>
+                            <div class="accordion__content">
+                                <p>
+                                    Tenho experiência na área de Design Gráfico, criei o perfil @m.cartoestags para
+                                    aprimorar meus conhecimentos em Design
+                                    Gráfico, realizando designs de cartões, cartões de visita, etiqueta para roupas e
+                                    outros. Além disso conseguindo uma renda em quanto continuo meus estudos na área de
+                                    T.I. dsd
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="radio" name="example_accordion" id="section2" class="accordion__input">
+                            <label for="section2" class="accordion__label">Quais são suas principais qualidades?<span><i
+                                        class="fa-solid fa-angle-down"></i></span></label>
+                            <div class="accordion__content">
+                                <p>
+                                    Lorem ipsum Trocar esse texto dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis,
+                                    ipsam quaerat,
+                                    aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias
+                                    voluptas earum a
+                                    voluptatibus fugiat fuga facere!
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="radio" name="example_accordion" id="section3" class="accordion__input">
+                            <label for="section3" class="accordion__label">Quais são seus principais defeitos?<span><i
+                                        class="fa-solid fa-angle-down"></i></span></label>
+                            <div class="accordion__content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis,
+                                    ipsam quaerat,
+                                    aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias
+                                    voluptas earum a
+                                    voluptatibus fugiat fuga facere!
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="radio" name="example_accordion" id="section4" class="accordion__input">
+                            <label for="section4" class="accordion__label">Qual a sua formação?<span><i class="fa-solid fa-angle-down"></i></span></label>
+                            <div class="accordion__content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis,
+                                    ipsam quaerat,
+                                    aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias
+                                    voluptas earum a
+                                    voluptatibus fugiat fuga facere!
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="radio" name="example_accordion" id="section5" class="accordion__input">
+                            <label for="section5" class="accordion__label">Você gosta de trabalhar em equipe?<span><i
+                                        class="fa-solid fa-angle-down"></i></span></label>
+                            <div class="accordion__content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis,
+                                    ipsam quaerat,
+                                    aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias
+                                    voluptas earum a
+                                    voluptatibus fugiat fuga facere!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="redes-sociais">
+        <div class="redes_container">
+            <div class="redes_box">
+                <button class="btn"><a id="linkedin" href="https://www.linkedin.com/in/max-henrique-fontes/"
+                        target="_blank">Linkedin</a></button>
+                <button class="btn"><a id="instagram" href="https://www.instagram.com/max._.henrique/"
+                        target="_blank">Instagram</a></button>
+                <button class="btn"><a id="github" href="https://github.com/MaxHenriique"
+                        target="_blank">GitHub</a></button>
+                <button class="btn"><a id="behance" href="https://www.behance.net/MaxHenriqueFS"
+                        target="_blank">Behance</a></button>
+                <button class="btn"><a id="dribbble" href="https://dribbble.com/maxhenrique"
+                        target="_blank">Dribbble</a></button>
+            </div>
+
+            <div class="contato">
+                <a id="telefone" href="https://api.whatsapp.com/send?phone=5511961829610&text=Ol%C3%A1%2C%20tudo%20bem"
+                    target="_blank"><i class="fa-solid fa-phone">&nbsp&nbsp</i>+55 11 96182-9610</a>
+                <i class="fa-solid fa-minus"></i>
+                <a id="email" href="mailto:contato.maxhenrique@gmail.com"><i
+                        class="fa-solid fa-envelope">&nbsp&nbsp</i>contato.maxhenrique@gmail.com</a>
+            </div>
+
+            <div class="creditos">
+                <h4>@2022 Portfólio. Design com <img src="img/emoji.png" alt="Amor">Max Henrique</h4>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="/js/script.js" async></script>
+
+</body>
+
+</html>
