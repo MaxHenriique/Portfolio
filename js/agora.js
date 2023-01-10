@@ -199,3 +199,10 @@ btn.onclick = function(){
     modedark.classList.toggle('active')
 
 }
+
+var i = 1;
+div_to_clone = jQuery('.projeto__imagem__bolinhaLinguagem');
+for (i=1;i<10;i++){
+  appendto = jQuery('.projeto__imagem__bolinhaLinguagem').eq(jQuery('.projeto__imagem__bolinhaLinguagem').length-1);
+  div_to_clone.clone().appendTo(appendto);
+}
